@@ -12,6 +12,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /code/rong
+            cd /code/tong
             git pull -f
             ls
