@@ -1,5 +1,5 @@
 name: Auto Deploy
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   Auto-Deploy:
     runs-on: ubuntu-latest
