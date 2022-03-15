@@ -1,2 +1,7 @@
-- name: SSH Remote Commands
-  uses: appleboy/ssh-action@v0.1.4
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: appleboy/ssh-action@v0.1.4
