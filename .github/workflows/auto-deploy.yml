@@ -13,14 +13,14 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd /code/ci/notify
-            python3 notify.py --name "Tong's Website" --type "log" --message "Deploying website..."
+            python3 notify.py --name "Tong's Website" --type "log" --message "Deploying website..." --hook "tong"
             cd /code/tong
             git pull -f
             if [ $? -eq "0" ];
             then
               cd /code/ci/notify
-              python3 notify.py --name "Tong's Website" --type "info" --message "Deployment was successful."
+              python3 notify.py --name "Tong's Website" --type "info" --message "Deployment was successful." --hook "tong"
             else
               cd /code/ci/notify
-              python3 notify.py --name "Tong's Website" --type "fatal" --message "Deployment was unsuccessful."
+              python3 notify.py --name "Tong's Website" --type "fatal" --message "Deployment was unsuccessful." --hook "tong"
             fi
