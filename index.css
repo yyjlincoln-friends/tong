@@ -2,3 +2,7 @@ img {
     user-select: none;
     pointer-events: none;
 }
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
