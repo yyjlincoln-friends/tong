@@ -16,10 +16,11 @@ jobs:
             python3 notify.py --name "Tong's Website" --type "log" --message "Deploying website..."
             cd /code/tong
             git pull -f
-            if [ $1 = 0 ]
+            if [ $? -eq "0" ];
             then
               cd /code/ci/notify
               python3 notify.py --name "Tong's Website" --type "info" --message "Deployment was successful."
             else
               cd /code/ci/notify
               python3 notify.py --name "Tong's Website" --type "fatal" --message "Deployment was unsuccessful."
+            fi
