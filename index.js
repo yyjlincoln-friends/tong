@@ -19,3 +19,12 @@ function ask_apple() {
         print("I see");
     }
 }
+function updatePro() {
+    const numberOneInput = document.getElementById("number-1-input");
+    const numberTwoInput = document.getElementById("number-2-input");
+    const numberOne = Number(numberOneInput.value);
+    const numberTwo = Number(numberTwoInput.value);
+    const product = numberOne * numberTwo;
+    const sumElement = document.getElementById("product-output");
+    sumElement.innerText = product;
+}
