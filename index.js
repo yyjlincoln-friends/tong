@@ -13,3 +13,9 @@ function updateSum() {
     const sumElement = document.getElementById("sum-output");
     sumElement.innerText = sum;
 }
+function ask_apple() {
+    var user_click = = confirm("Do u like apple?");
+    if (user_click == 1) {
+        print("I see");
+    }
+}
