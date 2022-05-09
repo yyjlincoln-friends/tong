@@ -14,7 +14,7 @@ function updateSum() {
     sumElement.innerText = sum;
 }
 function ask_apple() {
-    var user_click = = confirm("Do u like apple?");
+    var user_click = confirm("Do u like apple?");
     if (user_click == 1) {
         print("I see");
     }
