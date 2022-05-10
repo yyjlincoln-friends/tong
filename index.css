@@ -71,7 +71,7 @@ body {
 .linkbutton-style {
     display: flex;
     flex-direction: column;
-    padding: 4rem 5rem;
+    padding: 0.8rem 1rem;
     background-color: #d9e714;
     color: rgb(0, 0, 0);
     width: fit-content;
