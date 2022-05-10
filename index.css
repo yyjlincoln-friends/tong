@@ -68,3 +68,8 @@ body {
 }
 
 
+p.one {
+    border-style: solid;
+    border-color: brown;
+}
+
