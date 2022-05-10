@@ -33,3 +33,11 @@ function updatePro() {
 function openmoodle() {
     open("https://moodle.telt.unsw.edu.au");
 }
+
+function openmyunsw() {
+    open("https://my.unsw.edu.au/portal/faces/oracle/webcenter/portalapp/pages/view1.jspx?_afrLoop=2828058607911751&_afrWindowMode=0&_adf.ctrl-state=17d9nz4oe5_4");
+}
+
+function openunswemail() {
+    open("https://outlook.office.com/mail/");
+}
