@@ -9,8 +9,8 @@ body {
 }
 
 @keyframes example {
-    from {background-color: gray;}
-    to {background-color: black;}
+    from {background-color: black;}
+    to {background-color: grey;}
 }
 
 .button-style {
