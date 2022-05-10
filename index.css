@@ -80,3 +80,10 @@ body {
     user-select: none;
     cursor: pointer;
 }
+.linkbutton-style:hover {
+    background-color: #3784C6;
+}
+
+.linkbutton-style:active {
+    background-color: #38618C;
+}
