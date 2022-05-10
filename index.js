@@ -42,6 +42,7 @@ function movingblock() {
     let id = null;
     const elem = document.getElementById("animate");
     let pos = 0;
+    id = setInterval(frame, 5);
     while (pos != 350) {
         pos++;
         elem.style.top = pos + "px";
