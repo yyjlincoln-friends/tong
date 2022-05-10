@@ -68,7 +68,7 @@ body {
 }
 
 
-p.one {
+.one {
     border-style: solid;
     border-color: brown;
 }
