@@ -71,5 +71,9 @@ body {
 .one {
     border-style: solid;
     border-color: brown;
+    border-radius: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
+
 
