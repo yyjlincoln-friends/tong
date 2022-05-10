@@ -76,7 +76,7 @@ body {
     margin-right: 900px;
 }
 
-.button_two { 
+.button_two-style { 
     display: flex;
     flex-direction: column;
     padding: 0.8rem 1rem;
@@ -88,11 +88,11 @@ body {
     user-select: none;
     cursor: pointer;
 }
-.button_two :hover{
+.button_two-style :hover{
     background-color: #e4eaf0;
 }
 
-.button-style:active {
+.button_two-style:active {
     background-color: #000000;
 }
 
