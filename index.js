@@ -28,3 +28,8 @@ function updatePro() {
     const sumElement = document.getElementById("product-output");
     sumElement.innerText = product;
 }
+
+
+function openmoodle() {
+    window.open("https://moodle.telt.unsw.edu.au/my/");
+}
