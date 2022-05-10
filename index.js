@@ -43,8 +43,10 @@ function movingblock() {
     const elem = document.getElementById("animate");   
     let pos = 0;
     clearInterval(id);
-    id = setInterval(frame, 5);
-    function frame() {
+    id = setInterval(frame(), 5);
+}
+
+function frame() {
     if (pos == 360) {
       clearInterval(id);
     } else {
@@ -52,5 +54,4 @@ function movingblock() {
       elem.style.top = pos + "px"; 
       elem.style.left = pos + "px"; 
     }
-  }
 }
