@@ -64,7 +64,7 @@ body {
 
 
 .with-padding {
-    padding: 2rem;
+    padding: 4rem;
 }
 
 
@@ -76,4 +76,23 @@ body {
     margin-right: 900px;
 }
 
+.button_two { 
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem 1rem;
+    background-color:darkgray;
+    color:black;
+    width: fit-content;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 0.3rem;
+    user-select: none;
+    cursor: pointer;
+}
+.button_two :hover{
+    background-color: #e4eaf0;
+}
+
+.button-style:active {
+    background-color: #000000;
+}
 
