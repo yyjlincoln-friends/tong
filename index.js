@@ -36,3 +36,15 @@ function openmyunsw() {
 function openunswemail() {
     open("https://outlook.office.com/mail/");
 }
+
+
+function movingblock() {
+    let id = null;
+    const elem = document.getElementById("animate");
+    let pos = 0;
+    while (pos != 350) {
+        pos++;
+        elem.style.top = pos + "px";
+        elem.style.left = pps + "px";
+    }
+}
