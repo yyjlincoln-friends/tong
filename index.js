@@ -32,5 +32,4 @@ function updatePro() {
 
 function openmoodle() {
     window.open("https://moodle.telt.unsw.edu.au");
-
 }
