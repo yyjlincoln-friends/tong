@@ -35,10 +35,13 @@ body {
         font-weight: bold;
         width: 20rem;
         transition: width 2s;
+        animation-duration: 4s;
 }
 
 .button2:hover {
     width: 40rem;
+    from {background-color: gray;}
+    to {background-color: black;}
 }
 
 .banner {
