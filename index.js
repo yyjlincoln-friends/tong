@@ -42,25 +42,27 @@ function movingblock() {
     let id = null;
     const elem = document.getElementById("animate");   
     let pos = 0;
+    let i = 0;
     clearInterval(id);
     id = setInterval(frame, 5);
     function frame() {
-    if (pos > 1000) {
-        clearInterval(Id);
+        if (pos = 1) {
+            i = 0;
+            while (i < 100) {
+                elem.style.top = pos - "px"; 
+                elem.style.left = pos - "px"; 
+                i++;
+            }
+            pos++
+        }
+        else if (pos = 2) {
+            i = 0;
+            while (i < 100) {
+                elem.style.top = pos + "px"; 
+                elem.style.left = pos + "px"; 
+                i++;
+            }
+            pos--;
+        }
     }
-    else if (pos >= 720) {
-      pos++;
-      elem.style.top = pos - "px"; 
-      elem.style.left = pos - "px"; 
-    }
-    else if (pos >= 350) {
-        pos++;
-        elem.style.top = pos + "px"; 
-    } 
-    else {
-      pos++; 
-      elem.style.top = pos + "px"; 
-      elem.style.left = pos + "px"; 
-    }
-  }
 }
