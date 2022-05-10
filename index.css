@@ -29,6 +29,12 @@ body {
     background-color: #38618C;
 }
 
+.button2 {background-color: gray;
+border-radius: 5rem;}
+
+
+
+
 .banner {
     position: relative;
     background-color: #EBF6FF;
@@ -74,25 +80,5 @@ body {
     border-radius: 10px; 
     margin-left: 20px;
     margin-right: 900px;
-}
-
-.button_two-style { 
-    display: flex;
-    flex-direction: column;
-    padding: 0.8rem 1rem;
-    background-color:darkgray;
-    color:black;
-    width: fit-content;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border-radius: 0.3rem;
-    user-select: none;
-    cursor: pointer;
-}
-.button_two-style :hover{
-    background-color: #e4eaf0;
-}
-
-.button_two-style:active {
-    background-color: #000000;
 }
 
