@@ -8,6 +8,11 @@ body {
     margin: 0;
 }
 
+@keyframes example {
+    from {background-color: gray;}
+    to {background-color: black;}
+}
+
 .button-style {
     display: flex;
     flex-direction: column;
@@ -44,10 +49,7 @@ body {
     
 }
 
-@keyframes example {
-    from {background-color: gray;}
-    to {background-color: black;}
-}
+
 
 
 .banner {
