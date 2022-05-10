@@ -30,7 +30,8 @@ body {
 }
 
 .button2 {background-color: gray;
-border-radius: 5rem;}
+        padding: 2rem 2rem;
+}
 
 
 
