@@ -35,14 +35,20 @@ body {
         font-weight: bold;
         width: 20rem;
         transition: width 2s;
+        animation-name: example;
         animation-duration: 4s;
 }
 
 .button2:hover {
     width: 40rem;
+    
+}
+
+@keyframes example {
     from {background-color: gray;}
     to {background-color: black;}
 }
+
 
 .banner {
     position: relative;
