@@ -40,12 +40,17 @@ function openunswemail() {
 
 function movingblock() {
     let id = null;
-    const elem = document.getElementById("animate");
+    const elem = document.getElementById("animate");   
     let pos = 0;
+    clearInterval(id);
     id = setInterval(frame, 5);
-    while (pos != 350) {
-        pos++;
-        elem.style.top = pos + "px";
-        elem.style.left = pps + "px";
+    function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos + "px"; 
     }
+  }
 }
