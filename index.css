@@ -41,7 +41,7 @@ body {
         width: 20rem;
         transition: width 2s;
         animation-name: example;
-        animation-duration: 2.5s;
+        animation-duration: 1.85s;
 }
 
 .button2:hover {
