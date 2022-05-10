@@ -34,6 +34,11 @@ body {
         font-size: medium;
         font-weight: bold;
         width: 20rem;
+        transition: width 2s;
+}
+
+.button2:hover {
+    width: 400rem;
 }
 
 .banner {
